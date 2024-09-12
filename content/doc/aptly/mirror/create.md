@@ -24,6 +24,10 @@ For Launchpad PPAs:
 
     $  aptly mirror create <name> <ppa:user/project>
 
+For remotes requiring basic auth:
+
+    $  aptly mirror create <name> https://user:password@archive.url ...
+
 Params are:
 
 -   `name` is a name that would be used in aptly to reference this
