@@ -4,7 +4,6 @@
 flat Debian repositories exported via HTTP(S) or FTP. aptly would try download
 Release file from remote repository and verify its signature.</p><p>Usage:</p><pre><code>$  aptly mirror create &lt;name&gt; &lt;archive url&gt; &lt;distribution&gt; [&lt;component1&gt; ...]
 </code></pre><p>For Launchpad PPAs:</p><pre><code>$  aptly mirror create &lt;name&gt; &lt;ppa:user/project&gt;
-</code></pre><p>For remotes requiring basic auth:</p><pre><code>$  aptly mirror create &lt;name&gt; https://user:password@archive.url ...
 </code></pre><p>Params are:</p><ul><li><code>name</code> is a name that would be used in aptly to reference this
 mirror</li><li><code>archive url</code> is a root of archive, e.g.
 <a href=http://ftp.ru.debian.org/debian/>http://ftp.ru.debian.org/debian/</a></li><li><code>distribution</code> is a distribution name, e.g. <code>squeeze</code>, for flat

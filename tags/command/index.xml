@@ -474,9 +474,6 @@ Release file from remote repository and verify its signature.&lt;/p>
 &lt;p>For Launchpad PPAs:&lt;/p>
 &lt;pre>&lt;code>$ aptly mirror create &amp;lt;name&amp;gt; &amp;lt;ppa:user/project&amp;gt;
 &lt;/code>&lt;/pre>
-&lt;p>For remotes requiring basic auth:&lt;/p>
-&lt;pre>&lt;code>$ aptly mirror create &amp;lt;name&amp;gt; https://user:password@archive.url ...
-&lt;/code>&lt;/pre>
 &lt;p>Params are:&lt;/p>
 &lt;ul>
 &lt;li>&lt;code>name&lt;/code> is a name that would be used in aptly to reference this
